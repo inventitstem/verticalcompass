@@ -17,22 +17,10 @@ enum MyEnum {
 //% weight=100 color=#0fbc11 icon=""
 namespace custom {
     /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
+     * Provides bearing when microbit is vertical
      */
     //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
+    export function foo(): void {
         // Add code here
-    }
-
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
     }
 }
